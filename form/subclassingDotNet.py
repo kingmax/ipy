@@ -5,7 +5,7 @@ clr.AddReference('System.Drawing')
 
 from System.Windows.Forms import (
 Application, Form,
-FormBorderStyle, Label
+FormBorderStyle, Label, Button
 )
 
 from System.Drawing import (
@@ -27,6 +27,13 @@ class MainForm(Form):
         label.ForeColor = Color.DarkMagenta
         label.Location = Point(10, 50)
         self.Controls.Add(label)
+
+        btn = Button(Text="Click", Location=Point(50, 20), Parent=self)
+        btn.Click += self.on_click
+
+    def on_click(self, sender, event):
+        print('clicked')
+        print(sender, event)
 
 
 mainForm = MainForm()
