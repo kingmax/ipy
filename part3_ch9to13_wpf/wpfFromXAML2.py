@@ -10,8 +10,8 @@ from System.Windows.Controls import Label
 
 class HelloWorld(object):
     def __init__(self):
-        #stream = File.OpenRead("wpfFromXAML.xaml") #r'D:\git\ipy\ch9_wpf\wpfFromXAML.xaml'
-        stream = File.OpenRead(r'D:\git\ipy\ch9_wpf\wpfFromXAML2.xaml') #r'D:\git\ipy\ch9_wpf\wpfFromXAML.xaml'
+        stream = File.OpenRead("wpfFromXAML2.xaml") #r'D:\git\ipy\ch9_wpf\wpfFromXAML.xaml'
+        #stream = File.OpenRead(r'D:\git\ipy\ch9_wpf\wpfFromXAML2.xaml') #r'D:\git\ipy\ch9_wpf\wpfFromXAML.xaml'
         # create WPF object from xaml
         self.Root = XamlReader.Load(stream)
         self.button = self.Root.FindName('button')
