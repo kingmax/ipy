@@ -7,6 +7,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "form", "part1_ch1to3_form\f
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ch9_wpf", "part3_ch9to13_wpf\ch9_wpf.pyproj", "{2B511557-7CEB-484C-A805-4CCAE3AE234C}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "coreTech_ch4to8", "coreTech_ch4to8\coreTech_ch4to8.pyproj", "{BC07DD3D-118C-4865-A956-935A3C0F3E00}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "coreTech_MVC_MultiDoc", "coreTech_MVC_MultiDoc\coreTech_MVC_MultiDoc.pyproj", "{BDF314F9-9291-483A-9767-0A2E9101AAF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{3DBF7644-B5C7-49E4-9392-6B012FF686F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B511557-7CEB-484C-A805-4CCAE3AE234C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B511557-7CEB-484C-A805-4CCAE3AE234C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC07DD3D-118C-4865-A956-935A3C0F3E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC07DD3D-118C-4865-A956-935A3C0F3E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF314F9-9291-483A-9767-0A2E9101AAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF314F9-9291-483A-9767-0A2E9101AAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
