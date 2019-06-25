@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bdf314f9-9291-483a-9767-0a2e9101aaf2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>coreTech_MVC_MultiDoc.py</StartupFile>
+    <StartupFile>app.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,17 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="IronPython|2.7-32" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controller.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dataModel.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
