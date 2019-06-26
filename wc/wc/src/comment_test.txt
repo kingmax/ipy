@@ -1,0 +1,38 @@
+--commit 1
+import engine.cmds as cmds
+
+##@cond
+def getParent():
+	selection	= cmds.getSelection()
+	parent		= None;
+	if( 0 < len(selection) ):
+		parent = selection[0];
+	/*commit 2*/
+	return parent;
+#end def
+
+def createPrimitive(/*goName,*/ primitiveType):
+	parent = getParent();
+/*commit 3 	
+	#go		= cmds.createGameObject(goName, parent )
+	go		= cmds.createGameObject(goName)
+	component	= cmds.addComponent(go, 'Primitive');
+*/	
+	# set primitiveType
+	comp/*onent*/.ShapeType = primitiveType
+	
+/*****************************
+CR43D66Lib.mse reDev from 
+------------------------------------
+Dev by:
+58dc1d9 + prepare.txt
+d2a8c27 Initial commit
+****************************/	
+struct hpDict
+(
+	keys = #(),
+	values = #(), //array
+	items = #(), --2d array #(#(keys), #(values))
+	--加拿大政府都向中方承认了 加媒还厚颜“带节奏”
+《新闻联播》罕见连播四篇评论 回应了这些问题
+	)
