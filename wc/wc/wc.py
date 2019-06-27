@@ -43,10 +43,10 @@ for line in allLines:
 
 new_code = '\n'.join(new_lines)
 
-print(new_code)
+# print(new_code)
 
 
-
+print(len(new_lines))
 if new_lines:
     with open(new_msLib, 'w') as fp:
         fp.writelines(new_code)
