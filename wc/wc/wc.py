@@ -14,9 +14,49 @@ print(src_dir, new_dir)
 ms_files = [f for f in os.listdir(src_dir) if f.endswith('.ms')]
 print(ms_files)
 
-ms_lib = os.path.join(src_dir, 'CR43D66Lib.ms')
+ms_lib = os.path.join(src_dir, 'CR43D66Lib_dev.ms')
 #ms_lib = os.path.join(src_dir, 'comment_test.txt')
 new_msLib = os.path.join(new_dir, 'CR43D66Lib.ms')
+#new_msLib = os.path.join(new_dir, 'comment_test.txt')
+print(ms_lib, new_msLib)
+
+allLines = []
+words = {}
+
+# remove space line
+with open(ms_lib, 'r') as fp:
+    allLines = [line.strip() for line in fp.readlines() if line.strip()]
+    print(len(allLines))
+
+# remove single comment line
+#print(range(len(allLines)))
+new_lines = []
+
+for line in allLines:
+    if line.startswith('--'):
+        continue
+    elif line.startswith('/*') and line.endswith('*/'):
+        continue
+    else:
+        new_lines.append(line)
+        # print(line)
+
+new_code = '\n'.join(new_lines)
+
+# print(new_code)
+
+
+print(len(new_lines))
+if new_lines:
+    with open(new_msLib, 'w') as fp:
+        fp.writelines(new_code)
+        print('write new file done')
+
+
+#######################################################################################3
+ms_lib = os.path.join(src_dir, 'CR43D66Submit_dev.ms')
+#ms_lib = os.path.join(src_dir, 'comment_test.txt')
+new_msLib = os.path.join(new_dir, 'CR43D66Submit.ms')
 #new_msLib = os.path.join(new_dir, 'comment_test.txt')
 print(ms_lib, new_msLib)
 
