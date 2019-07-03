@@ -3,6 +3,10 @@
 # 然后再用cpp那个移除多行注释
 
 import os, sys
+import shutil
+
+devDir = r'D:\git\CR43D66\src\CR43D66'
+devFileList = ('CR43D66Lib_dev.ms', 'CR43D66Submit_dev.ms')
 
 _thisDir = os.path.dirname(__file__)
 src_dir = os.path.join(_thisDir, 'src')
