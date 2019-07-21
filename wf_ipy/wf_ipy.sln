@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wf_ipy", "wf_ipy\wf_ipy.csproj", "{03D7FEBD-9FB1-4FBA-B7A7-2BF7BA0C7F87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D7FEBD-9FB1-4FBA-B7A7-2BF7BA0C7F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D7FEBD-9FB1-4FBA-B7A7-2BF7BA0C7F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D7FEBD-9FB1-4FBA-B7A7-2BF7BA0C7F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D7FEBD-9FB1-4FBA-B7A7-2BF7BA0C7F87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C25B188-E048-4606-AC19-A467147BEB91}
+	EndGlobalSection
+EndGlobal

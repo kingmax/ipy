@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "coreTech_ch4to8", "coreTech
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "coreTech_MVC_MultiDoc", "coreTech_MVC_MultiDoc\coreTech_MVC_MultiDoc.pyproj", "{BDF314F9-9291-483A-9767-0A2E9101AAF2}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "using_cs_dll", "using_cs_dll\using_cs_dll.pyproj", "{0F6EB835-0098-4B67-8BCC-A85E253EB877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{BC07DD3D-118C-4865-A956-935A3C0F3E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF314F9-9291-483A-9767-0A2E9101AAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BDF314F9-9291-483A-9767-0A2E9101AAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6EB835-0098-4B67-8BCC-A85E253EB877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6EB835-0098-4B67-8BCC-A85E253EB877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
