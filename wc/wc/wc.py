@@ -82,3 +82,4 @@ for f in newFileList:
     dev = os.path.join(devDir, os.path.basename(f))
     shutil.copy(f, dev)
     print('[new2dev]%s -> %s'%(f, dev))
+    
